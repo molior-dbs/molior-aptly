@@ -1,0 +1,13 @@
+Source: molior-aptly
+Section: devel
+Priority: optional
+Maintainer: André Roth <neolynx@gmail.com>
+Build-Depends: debhelper (>= 11)
+Standards-Version: 4.2.1
+
+Package: molior-aptly
+Architecture: any
+Built-Using: ${misc:Built-Using}
+Depends: ${misc:Depends},
+         ${shlibs:Depends}
+Description: molior configuration for aptly
